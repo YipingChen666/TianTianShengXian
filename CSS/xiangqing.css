@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.clearfix:after,.clearfix:before{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+input{
+    outline: none;
+    border: 0px;    
+}
+.catelist li a:hover, .list li a:hover, .headlist li a:hover,.headright a:hover{
+    color: orange;
+}
+body{
+    font-size: 12px;
+    color: #666666;
+}
+
+/*-------------------------------header-----------------------------------------*/
+.header{
+    height: 29px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #dddddd;
+}
+
+.wrap h3{
+    line-height: 29px;
+}
+
+.wrap .right{
+    width: 330px;
+    height: 29px;
+    line-height: 29px;
+}
+
+.header .right>span{
+    margin: 0 10px;
+}
+.right>a{
+    color: #666666;
+}
+.right>a:hover{
+    color: orange;
+}
+.nav{
+    height: 90px;
+}
+.wrap .logo{
+    margin-left: 17px;
+    display: inline-block;
+    margin-top: 29px; 
+    float: left;
+}
+.searchbar{
+    width: 616px;
+    height: 38px;
+    border: 1px solid #37ab40;
+
+    float: left;
+    margin-left: 120px;
+    margin-top: 36px;
+}
+.searchbar .txt{
+    width: 516px;
+    height: 38px;
+    line-height: 38px;
+    background: url("../images/search.png") no-repeat 12px 10px;
+    text-indent: 40px;
+}
+.searchbar .btn{
+    width: 100px;
+    height: 38px;
+    background: #37ab40;
+    color: white;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    float: right;
+}
+.buycar{
+    width: 200px;
+    height: 40px;
+    float: right;
+    margin-top: 36px;
+}
+.buycar a{
+    display: inline-block;
+    width: 158px;
+    height: 38px;
+    border: 1px solid #dddddd;
+    color: #37ab40;
+    font-size: 14px;
+    line-height: 38px;
+    background: url("../images/buycar.png") no-repeat 14px 8px;
+    text-indent: 56px;
+}
+.buycar span{
+     display: inline-block;
+     width: 40px;
+     height: 40px;
+     background: #ff8800;
+     font-size: 18px;
+     color: white;
+     line-height: 40px;
+     text-align: center;
+     float: right;
+}
+
+
+/*-------------------------------banner-----------------------------------------*/
+.banner{
+    height: 310px;  
+
+}
+.banner_h{
+    height: 40px;
+    margin-top: 26px;
+    border-bottom: 2px solid #37ab40;
+
+}
+
+.wrap .all{
+
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    background: #37ab40;
+
+    float: left;
+    
+}
+
+.wrap .catelist{
+    float: left;
+    width: 215px;
+    height: 40px;
+
+    margin-left: 35px;
+    line-height: 40px;
+
+}
+.catelist li{
+    float: left;
+    font-size: 14px;
+
+}
+.catelist li span{
+    margin: 0 20px;
+
+}
+.catelist li a{
+    color: #666666;
+
+}
+
+/*-------------------------------goods-----------------------------------------*/
+.goods{
+    height: 430px;
+}
+.goods_h{
+    height: 30px;
+    margin: 15px 0;
+    font-size: 12px;
+    
+
+}
+.goods_h a{
+    color: #37AB40;
+}
+.goods_h a:hover{
+    color:orange;
+}
+
+.center_con{
+  width: 1200px;
+  height: 350px;
+  margin: 0 auto;
+  position: relative;
+
+  /*background: yellow;*/
+}
+em{
+  font-style:normal;
+}
+.center_con .main_menu{
+  width:350px;
+    height:350px;
+    overflow:hidden;
+}
+.goods_detail_list{
+    width:730px;
+    height:350px;
+    position: absolute;
+    left:400px;
+
+}
+.goods_detail_list h3{
+    font-size:24px;
+    line-height:24px;
+    color:#666;
+    font-weight:normal;
+}
+.goods_detail_list p{
+    color:#666;
+    line-height:40px;
+}
+.prize_bar{
+    height:72px;
+    background-color:#fff5f5;
+    line-height:72px;
+}
+.prize_bar .show_prize{
+    font-size:20px;
+    color:#ff3e3e;
+    padding-left:20px
+}
+.prize_bar .show_pirze em{
+    font-style:normal;
+    font-size:36px;
+    padding-left:10px
+}
+.prize_bar .show_unit{
+    padding-left: 150px;
+}
+.goods_num{
+    height: 52px;
+    margin-top: 19px;
+    /*background: yellow;*/
+}
+.goods_num .num_name{
+    width:70px;
+    height:52px;
+    line-height:52px;
+}
+.goods_num .num_add{
+    width:75px;
+    height:50px;
+    border:1px solid #dddddd;
+}
+.goods_num .num_add .num_show{
+    width:49px;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    border:0px;
+    outline:none;
+    font-size:14px;
+    color:#666;
+}
+.goods_num .num_add .add,.goods_num .num_add .minus{
+    width:25px;
+    line-height:25px;
+    text-align:center;
+    border-left:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    color:#666;
+    font-size:14px;
+}
+.goods_num .num_add .minus{
+    border-bottom:0px;
+}
+.total{
+    height: 35px;
+    line-height: 35px;
+    margin-top: 25px;
+    /*background: yellow;*/
+}
+.total em{
+    font-style:normal;
+    color:#ff3e3e;
+    font-size:18px
+}
+.operate_btn{
+    height:40px;
+    margin-top:35px;
+    font-size:0;
+    position:relative;
+}
+.operate_btn .buy_btn,.operate_btn .add_cart{
+    display:inline-block;
+    width:178px;
+    height:38px;
+    border:1px solid #c40000;
+    font-size:14px;
+    color:#c40000;
+    line-height:38px;
+    text-align:center;
+    background-color:#ffeded;
+}
+.operate_btn .add_cart{
+    background-color:#c40000;
+    color:#fff;
+    margin-left:10px;
+    position:relative;
+    z-index:10;
+}
+
+/*-------------------------------footer-----------------------------------------*/
+.footer{
+    
+    border-top: 2px solid #518E17;
+    text-align: center;
+    padding-top: 20px
+}
+.foot_link, .footer p{
+    margin-bottom: 15px;
+    
+}

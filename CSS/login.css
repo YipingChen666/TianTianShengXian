@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style-type: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+.left{float: left;}
+.right{float: right;}
+.clear::before,.clear::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.header,.nav,.banner,.nar,.goods,.footer{
+	width: 100%;
+
+}
+/*-------------------------------header-----------------------------------------*/
+.header{
+	height: 100px;
+	line-height: 100px;
+	position: relative;
+	margin:0 auto
+}
+.wrap{
+	width: 65%;
+	margin: 0 auto;
+
+}
+.header a img {
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+}
+.login{
+	background-color: #518E17;
+	height: 460px;
+	margin: 40px 0;
+}
+.login img{
+	margin-left: -70px;
+	display: inline-block;
+}
+.title{
+	display: inline-block;
+	position: absolute;
+	top: 30%;
+	left:820px;
+}
+.title p{
+	width: 24px;
+    font-size: 28px;
+    color: #fff;
+
+}
+.login_form{
+	width: 370px;
+	height: 370px;
+	background-color: #fff;
+	display: inline-block;
+	margin-top:45px;
+}
+.login_title{
+	width: 100%;
+	height: 70px;
+	
+	text-align: center;
+	line-height: 70px;
+
+}
+.login_title h1{
+	display: inline-block;
+	color: #A8A8A8;
+
+}
+.login_title a{
+	display: inline-block;
+	color: #5FB42A;
+	margin-left: 30px;
+}
+.login_title a span{
+	width: 20px;
+	height: 10px;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #5FB42A;
+	margin-right: 15px;
+}
+.wrap2{
+	width: 80%;
+	margin: 0 auto;
+	border-top: 1px solid #E0E0E0;
+}
+.form_input{
+	height: 300px;
+	text-align: center;
+	padding-top: 30px;
+	
+
+}
+.form_input form> input {
+	width: 100%;
+    height: 40px;
+    line-height: 30px
+    display: block;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    box-sizing: border-box  
+}
+.more_input{
+	margin-bottom: 20px;
+}
+.input_submit{
+	background-color: #47AA34;
+	color: #fff;
+	
+	border:none;
+	text-align: center;
+	font-size: 23px;
+}
+.remeber,.forget{
+	color: #666666;
+	font-size: 14px;
+}
+
+/*-------------------------------footer-----------------------------------------*/
+.footer{
+	
+	border-top: 2px solid #518E17;
+	text-align: center;
+	padding-top: 20px
+
+}
+.foot_link, .footer p{
+	margin-bottom: 15px;
+
+	
+}

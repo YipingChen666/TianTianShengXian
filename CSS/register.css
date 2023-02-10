@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style-type: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+.left{float: left;}
+.right{float: right;}
+.clear::before,.clear::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.header,.nav,.banner,.nar,.goods,.footer{
+	width: 100%;
+
+}
+
+/*-------------------------------footer-----------------------------------------*/
+.header{
+	height: 100px;
+	line-height: 100px;
+	position: relative;
+	margin:0 auto
+}
+.wrap{
+	width: 65%;
+	margin: 0 auto;
+
+}
+.header a img {
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+}
+/*-------------------------------regist-----------------------------------------*/
+.regist{
+	background-color: #518E17;
+	height: 500px;
+	margin: 40px 0;
+}
+.regist img{
+	margin-left: -70px;
+	display: inline-block;
+}
+.title{
+	display: inline-block;
+	position: absolute;
+	top: 30%;
+	left:820px;
+}
+.title p{
+	width: 24px;
+    font-size: 28px;
+    color: #fff;
+
+}
+.regist_form{
+	width: 370px;
+	height: 430px;
+	background-color: #fff;
+	display: inline-block;
+	margin-top:45px;
+}
+.regist_title{
+	width: 100%;
+	height: 70px;
+	
+	text-align: center;
+	line-height: 70px;
+
+}
+.regist_title h1{
+	display: inline-block;
+	color: #A8A8A8;
+
+}
+.regist_title a{
+	display: inline-block;
+	color: #5FB42A;
+	margin-left: 30px;
+}
+.regist_title a span{
+	width: 20px;
+	height: 10px;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #5FB42A;
+	margin-right: 15px;
+}
+.wrap2{
+	
+	margin: 0 auto;
+	border-top: 1px solid #E0E0E0;
+}
+.form_input{
+     
+     position: relative;
+    padding:0px;
+}
+.form_input> form{	
+	margin:0 auto;
+	position: absolute;
+	left: 60px;
+	padding: 0px;
+
+}
+.form_input  p{
+	font-size: 18px;
+	margin:15px 0;
+	color: #A8A8BB;
+}
+.form_input form p input {
+	width: 100%;
+    height: 30px;
+    line-height: 30px
+    display: block;
+    margin: 0 auto;
+    padding-left: 5px;
+    box-sizing: border-box;
+    background-color: #F8F8F8;
+    border:1px solid #E0E0E0;
+    }
+.form_input form p input:focus {
+    border:1px solid #E0E0E0;
+    outline:none;
+    }
+.input_submit{
+	background-color: #47AA34;
+	color: #fff;
+	padding:5px 0 5px;
+	border:none;
+	text-align: center;
+	font-size: 23px;
+	margin-top: 5px;
+	width: 100%;
+}
+
+
+/*-------------------------------footer-----------------------------------------*/
+.footer{
+	
+	border-top: 2px solid #518E17;
+	text-align: center;
+	padding-top: 20px
+
+}
+.foot_link, .footer p{
+	margin-bottom: 15px;
+
+	
+}
